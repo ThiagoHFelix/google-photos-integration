@@ -1,1 +1,1 @@
-# googlePhotosIntegration
+# google-photos-integration
