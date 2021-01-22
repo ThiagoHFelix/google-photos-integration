@@ -1,7 +1,3 @@
-# google-photos-integration
-
-
-
 # *GPI* - Google Photos Integration
 ------------------------------------------------
 ### **Sobre**
@@ -29,7 +25,7 @@ Thiago Henrique Felix
 ### **Licença**
 SGC é um *software* *Open-Source* licenciado através da [GNU General Public License version 3.](https://opensource.org/licenses/GPL-3.0)
 
-### **Imagens SGC**
+### **Imagens da Applicação**
 
 ![HomePage](https://i.ibb.co/3SRtJgg/image.png)
 
