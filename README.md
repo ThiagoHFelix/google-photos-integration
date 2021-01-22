@@ -23,7 +23,7 @@ Thiago Henrique Felix
  - Em desenvolvimento
 
 ### **Licença**
-SGC é um *software* *Open-Source* licenciado através da [GNU General Public License version 3.](https://opensource.org/licenses/GPL-3.0)
+GPI é uma *Applicação* *Open-Source* licenciado através da [GNU General Public License version 3.](https://opensource.org/licenses/GPL-3.0)
 
 ### **Imagens da Applicação**
 
@@ -33,9 +33,9 @@ SGC é um *software* *Open-Source* licenciado através da [GNU General Public Li
 ### Primeiro passo é fazer o build da imagem
 docker build -t google_photos_integration:dev .
 
-### Instalar os pacotes pelo npm
-docker run -v ${PWD}:/application --name google_photos_integration_container -p 3000:3000 --rm google_photos_integration:dev npm install
+### Instalar os pacotes pelo npm e rodar a aplicação se for a primeira vez
+docker run -v ${PWD}:/application --name google_photos_integration_container -p 3000:3000 --rm google_photos_integration:dev npm install && npm start
 
-### Agora é criar o container para rodar a applicação
-docker run -v ${PWD}:/application -p 3005:3000 --name google_photos_integration_container --rm google_photos_integration:dev npm start
+### Se já estiver instado basta rodar direto
+docker run -v ${PWD}:/application -p 3000:3000 --name google_photos_integration_container --rm google_photos_integration:dev npm start
 
