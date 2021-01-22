@@ -1,7 +1,7 @@
 # *GPI* - Google Photos Integration
-------------------------------------------------
+
 ### **Sobre**
-GPI é um sistema simples feito em react para gerenciar uma conta do google photos servindo como base para integração do google photos em qualquer tipo de sistema com o React.
+GPI é um sistema simples feito em React para gerenciar uma conta do google photos servindo como base para integração do google photos em qualquer tipo de sistema.
 
 ### **Ferramentas**
 Para o desenvolvimento da plataforma foi utilizado ferramentas gratuitas de preferência Open-Source. Abaixo estão listadas as ferramentas utilizadas:
