@@ -29,7 +29,7 @@ SGC é um *software* *Open-Source* licenciado através da [GNU General Public Li
 
 ![HomePage](https://i.ibb.co/3SRtJgg/image.png)
 
-#Passo a Passo para rodar a aplicação 
+# Passo a Passo para rodar a aplicação 
 ### Primeiro passo é fazer o build da imagem
 docker build -t google_photos_integration:dev .
 
