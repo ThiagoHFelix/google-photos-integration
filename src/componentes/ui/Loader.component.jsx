@@ -2,19 +2,18 @@ import React from "react";
 import { Box, Typography, CircularProgress, makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles({
-    subMessage : {
-        fontSize : '18pt',
-        color    : '#3e3e3e'
+    subMessage: {
+        fontSize: '18pt',
+        color: '#3e3e3e'
     }
 });
 
-function Loader({ message , subMessage })
-{
+function Loader({ message, subMessage }) {
     const classes = useStyles();
 
     return (
         <Box display='flex' justifyContent='center' alignItems='center' flexDirection='column' height='100%'>
-            <CircularProgress size={50}/>
+            <CircularProgress size={50} />
             <Box marginTop={1.9}>
                 <Typography variant='h4' align='center'> {message} </Typography>
             </Box>
@@ -25,8 +24,8 @@ function Loader({ message , subMessage })
 }
 
 Loader.defaultProps = {
-    message    : 'Carregando',
-    subMessage : ''
-}    
+    message: 'Carregando',
+    subMessage: ''
+}
 
 export default Loader;
