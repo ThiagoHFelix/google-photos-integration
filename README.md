@@ -27,7 +27,7 @@ GPI é uma *Applicação* *Open-Source* licenciado através da [GNU General Publ
 
 ### **Imagens da Applicação**
 
-![HomePage](https://i.ibb.co/3SRtJgg/image.png)
+![HomePage](https://i.ibb.co/SvRJ3W4/Captura-de-tela-de-2021-05-01-11-37-25.png)
 
 # Passo a Passo para rodar a aplicação 
 ### Primeiro passo é fazer o build da imagem
