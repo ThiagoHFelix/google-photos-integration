@@ -22,9 +22,9 @@ export default props => {
     return (
         <React.Fragment>
             <AppBar/>
-            <LeftMenu/>
+            {/* <LeftMenu/> */}
             <Container maxWidth={'xl'} className={classes.mainContainer}>
-                <Box width="100%" marginLeft="280px" marginTop="70px" >
+                <Box width="100%"  marginTop="70px" >
                     {props.children}  
                 </Box> 
             </Container>

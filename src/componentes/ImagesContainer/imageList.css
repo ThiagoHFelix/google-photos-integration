@@ -1,0 +1,22 @@
+section {
+    display: flex;
+    flex-wrap : wrap;
+    overflow: auto;
+    height: 100%;
+}
+
+section::after {
+    content: '';
+    flex-grow: 999999999;
+}
+
+.image-div {
+    background-color: violet;
+    margin : 2px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+}
